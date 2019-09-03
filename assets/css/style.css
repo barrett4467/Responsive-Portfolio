@@ -123,26 +123,76 @@ img {
     float: left;
     margin: 20px;
     background: #ebebeb;
-    height: 150px;
-    width: 200px;
-    background-image: url(http://placekitten.com/200/150);
+    background-image: url(http://placekitten.com/300/300);
 }
+.blue-bar {
+    float: left;
+    position: relative;
+    background-color: #4aaaa5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center; 
+}
+
+
+/* still need xs and bigggo */
 @media (min-width:640px) {
     .block {
         display: inline-block;
     }
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .card {
+        height: 250px;
+        width: 300px;
+        margin: 20px 75px;
+    }
+    .blue-bar {
+        width: 300px;
+        bottom: -180px;
+    }
 }
 
+@media (min-width:768px) {
+   .navbar {
+        display: inline-block;
+   }
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    } 
+
+    .card {
+        height: 180px;
+        width: 245px;
+        margin: 20px;
+    }
+    .blue-bar {
+        width: 245px;
+        bottom: -120px;
+    }
+}
 @media (min-width:980px) {
     .block {
-        width: 975px;
+        width: 730px;
     }
     .portfolio {
-        width: 977px;
+        width: 732px;
+    }
+    .card {
+        height: 200px;
+        width: 275px;
+        margin: 30px;
+    }
+    .blue-bar {
+        width: 275px;
+        bottom: -140px;
     }
 }
 
-
+width: 975px;
 
 /* .hangman {
     grid-area: hangman;
@@ -410,27 +460,7 @@ input {
     padding: 10px 15px;
 }
 
-.blue-bar {
-    float: left;
-    position: relative;
-    width: 200px;
-    right: 0%;
-    bottom: -93px;
-    background-color: #4aaaa5;
-    padding: 15px;
-    color: #ffffff;
-}
 
-.blue-bar-rpg {
-    float: left;
-    position: absolute;
-    width: 200px;
-    right: 196px;
-    top: 157px;
-    background-color: #4aaaa5;
-    padding: 15px;
-    color: #ffffff;
-}
 
 footer {
     padding: 1rem;
