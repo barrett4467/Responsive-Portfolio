@@ -68,6 +68,7 @@ section {
     background-image: url('../images/greyfloral.png');
     padding: 3rem;
     margin: 0 -1rem 2rem -1rem;
+    min-height: 1150px;
 }
 
 
@@ -124,6 +125,12 @@ img {
     background: #ebebeb;
     background-image: url(http://placekitten.com/300/300);
 }
+.card-psychic { 
+    float: left;
+    margin: 20px auto;
+    background: #ebebeb;
+    background-image: url(../images/PsychicGame.PNG);
+}
 .blue-bar {
     float: left;
     position: relative;
@@ -163,7 +170,7 @@ input {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
-    .card {
+    .card, .card-psychic {
         margin: 20px -10px;
         height: 150px;
         max-width: 300px;
@@ -199,7 +206,7 @@ input {
 }
 
 @media (min-width:360) {
-    .card {
+    .card, .card-psychic {
         max-width: 50%;
     }
 }
@@ -255,7 +262,7 @@ input {
         width: 93%;
     } 
 
-    .card {
+    .card, .card-psychic {
         height: 180px;
         width: 245px;
         margin: 20px;
@@ -279,7 +286,7 @@ input {
     .portfolio {
         width: 732px;
     }
-    .card {
+    .card, .card-psychic {
         height: 200px;
         width: 275px;
         margin: 30px;
