@@ -129,7 +129,13 @@ img {
     float: left;
     margin: 20px auto;
     background: #ebebeb;
-    background-image: url(../images/PsychicGame.PNG);
+    background-image: url(../images/Psychic-Game.png);
+}
+.card-rpg { 
+    float: left;
+    margin: 20px auto;
+    background: #ebebeb;
+    background-image: url(../images/crystal-collector.png);
 }
 .blue-bar {
     float: left;
