@@ -113,12 +113,6 @@ img {
     padding: 20px;
 }
 
-.row {
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
-}
 .card {
     float: left;
     margin: 20px auto;
@@ -133,9 +127,17 @@ img {
 }
 .card-rpg { 
     float: left;
+    width: 275px;
+    height: 200px;
     margin: 20px auto;
     background: #ebebeb;
     background-image: url(../images/crystal-collector.png);
+}
+.card-trivia {
+    height: 200px;
+    width: 275px;
+    background: #ebebeb;
+    background-image: url(http://placekitten.com/300/300);
 }
 .blue-bar {
     float: left;
@@ -176,7 +178,7 @@ input {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
-    .card, .card-psychic {
+    .card, .card-psychic, .card-rpg, .card-trivia  {
         margin: 20px -10px;
         height: 150px;
         max-width: 300px;
@@ -212,7 +214,7 @@ input {
 }
 
 @media (min-width:360) {
-    .card, .card-psychic {
+    .card, .card-psychic, .card-rpg, .card-trivia {
         max-width: 50%;
     }
 }
@@ -229,7 +231,7 @@ input {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
-    .card {
+    .card, .card-rpg, .card-psychic, .card-trivia {
         height: 250px;
         margin: 20px 75px;
         width: 50%;
@@ -268,7 +270,7 @@ input {
         width: 93%;
     } 
 
-    .card, .card-psychic {
+    .card, .card-psychic, .card-rpg, .card-trivia  {
         height: 180px;
         width: 245px;
         margin: 20px;
@@ -292,7 +294,7 @@ input {
     .portfolio {
         width: 732px;
     }
-    .card, .card-psychic {
+    .card, .card-psychic, .card-rpg, .card-trivia  {
         height: 200px;
         width: 275px;
         margin: 30px;
