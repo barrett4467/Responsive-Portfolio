@@ -125,7 +125,7 @@ img {
     background: #ebebeb;
     background-image: url(../images/Psychic-Game.png);
 }
-.card-rpg { 
+.card-crystal { 
     float: left;
     width: 275px;
     height: 200px;
@@ -137,8 +137,26 @@ img {
     height: 200px;
     width: 275px;
     background: #ebebeb;
+    background-image: url(../images/TriviaGame.png);
+}
+.card-gif {
+    float: left;
+    width: 275px;
+    height: 200px;
+    margin: 20px auto;
+    background: #ebebeb;
+    background-image: url(../images/Gif.png);
+}   
+
+
+
+.card-train {
+    height: 200px;
+    width: 275px;
+    background: #ebebeb;
     background-image: url(http://placekitten.com/300/300);
 }
+
 .blue-bar {
     float: left;
     position: relative;
@@ -178,7 +196,7 @@ input {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
-    .card, .card-psychic, .card-rpg, .card-trivia  {
+    .card, .card-psychic, .card-rpg, .card-trivia, .card-train, .card-gif  {
         margin: 20px -10px;
         height: 150px;
         max-width: 300px;
@@ -214,7 +232,7 @@ input {
 }
 
 @media (min-width:360) {
-    .card, .card-psychic, .card-rpg, .card-trivia {
+    .card, .card-psychic, .card-rpg, .card-trivia, .card-train, .card-gif {
         max-width: 50%;
     }
 }
@@ -231,7 +249,7 @@ input {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
-    .card, .card-rpg, .card-psychic, .card-trivia {
+    .card, .card-rpg, .card-psychic, .card-trivia, .card-train, .card-gif {
         height: 250px;
         margin: 20px 75px;
         width: 50%;
@@ -270,7 +288,7 @@ input {
         width: 93%;
     } 
 
-    .card, .card-psychic, .card-rpg, .card-trivia  {
+    .card, .card-psychic, .card-rpg, .card-trivia, .card-train, .card-gif  {
         height: 180px;
         width: 245px;
         margin: 20px;
@@ -294,7 +312,7 @@ input {
     .portfolio {
         width: 732px;
     }
-    .card, .card-psychic, .card-rpg, .card-trivia  {
+    .card, .card-psychic, .card-rpg, .card-trivia, .card-train, .card-gif  {
         height: 200px;
         width: 275px;
         margin: 30px;
