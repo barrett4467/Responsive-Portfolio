@@ -22,16 +22,16 @@ body {
 
 .container {
     background-image: url('../images/greyfloral.png');
-    width: 100%;
+    width: 85%;
+    margin-top: 25px;
     padding: 2rem 1rem 20rem;
-    border-top: 1px solid #cccccc;
     color: #777;
     background: #ffffff;
     padding: 20px;
 }
 
 h1, h2 {
-    color: #4aaaa5;
+    color: #96848d;
     font-size: 2em;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #ccc;
@@ -58,7 +58,7 @@ a {
     float: left;
     position: relative;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #96848d;
     padding: 1rem;
     border-bottom: none;
     margin-left: -20px;
@@ -73,6 +73,7 @@ section {
     padding: 3rem;
     margin: 0 -1rem 2rem -1rem;
     min-height: 1150px;
+    width: 100%;
 }
 
 
@@ -143,7 +144,7 @@ img {
 .blue-bar {
     float: left;
     position: relative;
-    background-color: #4aaaa5;
+    background-color: #96848d;
     padding: 15px;
     color: #ffffff;
     text-align: center; 
@@ -320,7 +321,7 @@ input {
 #button {
     color: white;
     width: 100px;
-    background-color: #4aaaa5;
+    background-color: #96848d;
     padding: 10px 15px;
 }
 
@@ -332,9 +333,10 @@ footer {
     font-size: 16px;
     color: #ffffff;
     background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #96848d;
     margin-left: -10px;
     margin-right: -10px;
+    height: 80px;
 }
 
 
