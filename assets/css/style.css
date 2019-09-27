@@ -34,7 +34,6 @@ h1, h2 {
     color: #96848d;
     font-size: 2em;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-bottom: 2px solid #ccc;
     margin-left: 10px;
 }
 
@@ -150,8 +149,15 @@ img {
     text-align: center; 
 }
 
-#contact {
-    padding-bottom: 20px;
+#contactBtn {
+    position: relative;
+    float: right;
+    top: 30px;
+}
+
+.portfolio-head {
+    position: relative;
+    border-bottom: 2px solid #ccc;
 }
 
 .form {
@@ -162,12 +168,57 @@ img {
     padding: 20px;
 }
 
+#return {
+    position: relative;
+    top: -50px;
+    float: left;
+}
+
+.code-link {
+    position: relative;
+    top: 115px;
+    right: -102px;
+    font-size: 14px;
+    color: #fff;
+}
+
 input {
     border: 1px solid #cccccc;
     width: 100%;
     padding: 12px;
     margin: 10px 0;
 }
+
+
+#message {
+    height: 100px;
+}
+
+#button {
+    color: white;
+    width: 100px;
+    background-color: #96848d;
+    padding: 10px 15px;
+}
+
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #666666;
+    border-top: 8px solid #96848d;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 80px;
+}
+
+
+#sticky-footer {
+flex-shrink: none;
+}
+
 
 
 @media (min-width:0) {
@@ -313,33 +364,3 @@ input {
     }
 }
 
-
-#message {
-    height: 100px;
-}
-
-#button {
-    color: white;
-    width: 100px;
-    background-color: #96848d;
-    padding: 10px 15px;
-}
-
-
-
-footer {
-    padding: 1rem;
-    text-align: center;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #666666;
-    border-top: 8px solid #96848d;
-    margin-left: -10px;
-    margin-right: -10px;
-    height: 80px;
-}
-
-
-#sticky-footer {
-flex-shrink: none;
-}

@@ -8,6 +8,9 @@
         <!-- Linking CSS stylesheet  -->
         <link href="assets/css/skeleton.css" rel="stylesheet" type="text/css">
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+        <!-- Linking jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -17,9 +20,9 @@
                     <h1 id='name'>Rebecca Barrett</h1>
                     <div class='clearfix'>
                         <div class='nav-links'>
-                            <a href="index.html">About</a>
-                            <a href="portfolio.html">Portfolio</a>
-                            <a href="contact.html">Contact</a>
+                            <a target="_blank" href="https://docs.google.com/document/d/16-pDf9a5rrbytKECvQ8brXvbEPT7otFePI7x1ATzdDo/edit?usp=sharing" >Resume</a>
+                            <a href="#portfolio" id="portfolioTop">Portfolio</a>
+                            <a href="#contact" id="contactTop">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -28,23 +31,93 @@
         <section>
             <div>
                 <article>
-                    <h2>About Me</h2>
-                    <div>
-                        <img id='image' src="assets/images/photo.jpg" alt='Picture of Me!'>
-                        <p>
-                            Rebecca is a bit of a Newbie when it comes to code. Within the last couple of months she has taught herself some basic HTML and CSS skills and is currently enrolled in the University of Denver’s Coding Bootcamp. Rebecca is from a small town in South-Eastern Colorado about 3 and a half hours southeast from Denver and is currently living in a tiny studio apartment in Arvada with her cat Allie. She is truly an artist at heart and loves to mess with Pastels and Acrylics in particular. You can also find her tending to her various houseplants, baking (she makes a mean cinnamon roll) or just spending time with her friends and family.
-                        </p>
-                        <p>
-                            Rebecca Barrett is a Full-Stack Web Developer with an eye for design and a passion for learning. She earned a certificate in Full-Stack Development from the University of Denver, where she learned CSS, JavaScript, React.js, as well as several yet to be determined back-end development skills --insert skills later--. Rebecca has always been a hard worker and has worked through both high school and junior college while graduating both at the top of her class and participating in various extracurricular events. Her background in art allows for an eye for layouts and CSS styling as seen on several projects including her Crystal Collector application. Rebecca is a natural-born problem solver and loves to figure out even the toughest issues. This hardworking attitude and ability to pick up new concepts quickly, combined with her customer-centric mentality help her to deliver the applications our clients need most. 
-                        </p>
+                    <div id="about">
+                        <h2>About Me</h2>
+                        <div>
+                            <img id='image' src="assets/images/photo.jpg" alt='Picture of Me!'>
+                            <p>
+                                Rebecca is a bit of a Newbie when it comes to code. Within the last couple of months she has taught herself some basic HTML and CSS skills and is currently enrolled in the University of Denver’s Coding Bootcamp. Rebecca is from a small town in South-Eastern Colorado about 3 and a half hours southeast from Denver and is currently living in a tiny studio apartment in Arvada with her cat Allie. She is truly an artist at heart and loves to mess with Pastels and Acrylics in particular. You can also find her tending to her various houseplants, baking (she makes a mean cinnamon roll) or just spending time with her friends and family.
+                            </p>
+                            <p>
+                                Rebecca Barrett is a Full-Stack Web Developer with an eye for design and a passion for learning. She earned a certificate in Full-Stack Development from the University of Denver, where she learned CSS, JavaScript, React.js, as well as several yet to be determined back-end development skills --insert skills later--. Rebecca has always been a hard worker and has worked through both high school and junior college while graduating both at the top of her class and participating in various extracurricular events. Her background in art allows for an eye for layouts and CSS styling as seen on several projects including her Crystal Collector application. Rebecca is a natural-born problem solver and loves to figure out even the toughest issues. This hardworking attitude and ability to pick up new concepts quickly, combined with her customer-centric mentality help her to deliver the applications our clients need most. 
+                            </p>
+                            <p>You can find examples of her work at her <a target="_blank" href="https://github.com/barrett4467">Github,</a> <a href="#portfolio" id="portfolioSec"> Portfolio, </a> connect with her on <a target="_blank" href="https://www.linkedin.com/in/rebecca-barrett-aa10a8164/">LinkedIn, </a>or feel free to <a href="#contact" id="contactSec">contact her.</a></p>
+                        </div>
                     </div>
-                    <div class="clearfix"></div>
-                </article>
-            </div>
+                    <div id="portfolio">
+                        <div class="portfolio-head">
+                            <div class="container">
+                                <div class="columns nine">
+                                    <h2>Portfolio</h2>
+                                </div>
+                                <div class="columns three">
+                                    <a id="portfolio-collapse">Click to Collapse</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class="one-half column">
+                                <div class="card psychic">
+                                    <a target="_blank" class= "blue-bar" href = "https://barrett4467.github.io/Psychic-Game/"> Psychic Game</a> 
+                                    <a target="_blank" class= "code-link" href="https://github.com/barrett4467/Psychic-Game">View the Code</a>
+                                </div>
+                            </div>
+                            <div class="card crystal">
+                                <a target="_blank" class= "blue-bar" href = "https://barrett4467.github.io/unit-4-game/"> Crystal Collector</a> 
+                                <a target="_blank" class= "code-link" href="https://github.com/barrett4467/Crystal-Collector">View the Code</a>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class="one-half column">
+                                <div class="card trivia">
+                                    <a target="_blank" class= "blue-bar" href = "https://barrett4467.github.io/TriviaGame/"> Trivia Game </a>
+                                    <a target="_blank" class= "code-link" href="https://github.com/barrett4467/TriviaGame">View the Code</a>
+                                </div>
+                            </div>
+                            <div class="one-half column">
+                                <div class="card gif">
+                                    <a target="_blank" class= "blue-bar" href= "https://barrett4467.github.io/Gif-Tastic/"> Gif Tastic</a>
+                                    <a target="_blank" class= "code-link" href="https://github.com/barrett4467/Gif-Tastic">View the Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="one-half column">
+                                <div class="card train">
+                                    <a target="_blank" class= "blue-bar" href = "https://barrett4467.github.io/Train-Tracker/"> Train Scheduler</a>
+                                    <a target="_blank" class= "code-link" href="https://github.com/barrett4467/Train-Tracker">View the Code</a>
+                                </div>
+                            </div>
+                            <div class="one-half column">
+                                <div class="card">
+                                    <a target="_blank" class= "blue-bar" href= "https://dlafrance99.github.io/Project-one-take-two/">Bearfoot Voyager</a>
+                                    <a target="_blank" class= "code-link" href="https://github.com/dlafrance99/Project-one-take-two">View the Code</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div id="contact">
+                        <h2>For Additional Questions Please Feel Free to Contact Me</h2>
+                        <p>Phone: 719-980-1456</p>
+                        <p>Email: beccalynnbarr@gmail.com</p>
+                        <p>Or send me a quick message</p>
+                        <form action="https://formspree.io/barrett4467@gmail.com" method="POST">
+                            <div class='content' id="contact-form">
+                                <h4>Name</h4>
+                                <input type="text" name="Name" placeholder="Your name...">
+                                <h4>Email</h4>
+                                <input type="email" required="Email" placeholder="Email...">
+                                <h4>Message</h4>
+                                <input id='text' type="text" required="Message" placeholder="Message...">
+                                <input id='button' type="submit">
+                            </div>
+                        </form>
+                        <a id="contact-collapse"> Click to Collapse</a>
+                    </div>
+                    </article>
+                </div>
         </section>
+        <script src="./assets/js/app.js" ></script>
+        <footer><a href="#about" id="return">Return to top of page</a></footer>
     </body>
-    <div class='footer'>
-        <footer></footer>
-    </div>
 
 </html>
