@@ -137,8 +137,15 @@ img {
 }   
 
 .train {
-    background-image: url(http://placekitten.com/300/300);
+    background-image: url(../images/TrainScheduler.png);
 } 
+.voyager {
+    background-image: url(../images/BearfootVoyager.png);
+}
+.liri {
+    background-image: url(../images/walkthrough.gif);
+}
+
 
 .blue-bar {
     float: left;
